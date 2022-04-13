@@ -1,0 +1,76 @@
+* {
+  font-family: Lobster, cursive;
+  text-decoration: none;
+}
+header {
+  width: 100vw;
+  background-color: yellow;
+  border-radius: 20px;
+  position: fixed;
+  z-index: 50;
+  top: 0;
+}
+.titulo {
+  position: relative;
+  top: 100px;
+}
+footer {
+  background-color: grey;
+  border: 5px solid blue;
+  border-radius: 20px;
+  position: relative;
+  margin-top: 50vh;
+}
+.hola {
+  position: relative;
+  left: 50vw;
+  display: block;
+}
+table {
+  text-align: center;
+  margin-left: 50vw;
+}
+aside div {
+  background: lightgreen;
+  height: 100vh;
+  display: inline-block;
+  width: 35vw;
+  position: fixed;
+  top: 69px;
+}
+#title section {
+  display: inline-block;
+  position: relative;
+  margin-top: 10px;
+  width: 65vw;
+  margin-left: 10px;
+}
+article {
+  display: inline-block;
+}
+aside {
+  display: inline-block;
+}
+h1 {
+  text-align: center;
+}
+button:hover {
+  background: lightblue;
+}
+footer a {
+  padding-left: 10px;
+}
+a {
+  color: black;
+}
+form {
+  display: inline-block;
+  position: absolute;
+  margin: 25px;
+  right: 0;
+}
+nav {
+  display: inline-block;
+  position: relative;
+  left: 0;
+}
