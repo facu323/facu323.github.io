@@ -33,7 +33,7 @@ body {
   border-bottom: 3px solid #1a5;
   background-color: transparent;
   color: #fff;
-}
+} 
 .form__input:focus {
   background: linear-gradient(to bottom, transparent, #111); /*min 5:54:45*/
   outline: none;
