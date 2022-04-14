@@ -1,21 +1,22 @@
 * {
   font-family: Lobster, cursive;
   text-decoration: none;
+  color: #ffffff;
+}
+body {
+  background: #000;
 }
 header {
   width: 100vw;
-  background-color: yellow;
+  height: 55px;
+  background-color: #094;
   border-radius: 20px;
   position: fixed;
   z-index: 50;
   top: 0;
 }
-.titulo {
-  position: relative;
-  top: 100px;
-}
 footer {
-  background-color: grey;
+  background-color: #333;
   border: 5px solid blue;
   border-radius: 20px;
   position: relative;
@@ -31,20 +32,23 @@ table {
   margin-left: 50vw;
 }
 aside div {
-  background: lightgreen;
+  background: #940;
   height: 100vh;
   display: inline-block;
   width: 35vw;
   position: fixed;
-  top: 69px;
+  top: 50px;
 }
-#title section {
+#barra section {
   display: inline-block;
   position: relative;
-  margin-top: 10px;
+  margin-top: 50px;
   width: 65vw;
-  margin-left: 10px;
+  background: radial-gradient(circle, #444444, #222);
+  height: 100vh;
+  padding-left: 10px;
 }
+
 article {
   display: inline-block;
 }
@@ -57,11 +61,12 @@ h1 {
 button:hover {
   background: lightblue;
 }
+button {
+  background-color: #34a;
+  border: 1px solid #000;
+}
 footer a {
   padding-left: 10px;
-}
-a {
-  color: black;
 }
 form {
   display: inline-block;
@@ -70,8 +75,26 @@ form {
   right: 0;
 }
 nav {
-  display: flex;
-  justify-content: center; 
-  position: relative;
+  display: inline-block;
+  width: 30vw;
   left: 0;
+}
+input {
+  background: #555;
+  border: none;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+input[type="submit"] {
+  background: #36a;
+}
+.header__div {
+  width: 50vw;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+i {
+  margin: 5px;
+  color: black;
 }
