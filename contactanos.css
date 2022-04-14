@@ -1,6 +1,7 @@
 * {
-  font-family: "Sen", sans-serif;
-  font-weight: 100;
+  font-family: Lobster, cursive;
+  text-decoration: none;
+  color: #fff;
 }
 body {
   background: #000;
@@ -15,7 +16,8 @@ body {
   padding: 20px 20px;
   border: 8px solid #000;
   outline: 4px solid #094;
-  height: 85vh;
+  height: 80vh;
+  margin-top: 65px;
 }
 .form {
   min-width: 100px;
@@ -33,7 +35,7 @@ body {
   border-bottom: 3px solid #1a5;
   background-color: transparent;
   color: #fff;
-} 
+}
 .form__input:focus {
   background: linear-gradient(to bottom, transparent, #111); /*min 5:54:45*/
   outline: none;
@@ -82,4 +84,41 @@ body {
 }
 .form input[type="submit"]:active {
   background: linear-gradient(to bottom, #072, #050);
+}
+header {
+  width: 100vw;
+  background-color: #094;
+  border-radius: 30px;
+  position: fixed;
+  z-index: 50;
+  top: 0;
+}
+nav {
+  display: inline-block;
+  width: 30vw;
+  left: 0;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li:nth-child(1),
+li:nth-child(2) {
+  margin-right: 40px;
+}
+.header__div {
+  width: 50vw;
+  display: flex;
+}
+.header__div div {
+  margin: 15px;
+}
+.header__div {
+  width: 50vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+i {
+  margin: 5px;
+  color: black;
 }
