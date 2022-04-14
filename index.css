@@ -20,7 +20,9 @@ footer {
   border: 5px solid blue;
   border-radius: 20px;
   position: relative;
-  margin-top: 50vh;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  width: 65vw;
 }
 .hola {
   position: relative;
@@ -38,6 +40,12 @@ aside div {
   width: 35vw;
   position: fixed;
   top: 50px;
+  padding: 10px;
+}
+aside div p,
+h2 {
+  width: 90%;
+  margin: 10px;
 }
 #barra section {
   display: inline-block;
