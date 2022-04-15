@@ -106,7 +106,7 @@ i {
   margin: 5px;
   color: black;
 }
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 800px) {
     * {
       list-style: none;
     }
