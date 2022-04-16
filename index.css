@@ -9,7 +9,11 @@ body {
 artile section p, article section h2 {
   padding: 20px;
 }
+.bars {
+display: none;
+}
 header {
+  display: block;
   width: 98.9vw;
   height: 55px;
   background-color: #094;
