@@ -6,14 +6,10 @@
 body {
   background: #000;
 }
-artile section p, article section h2 {
-  padding: 20px;
-}
 .bars {
-display: none;
+  display: none;
 }
 header {
-  display: block;
   width: 98.9vw;
   height: 55px;
   background-color: #094;
@@ -51,9 +47,12 @@ aside div {
   right: 0;
 }
 aside div p,
-h2 {
+aside h2 {
   width: 90%;
   margin: 10px;
+}
+article section h2, article section p {
+width: 95%;
 }
 #barra section {
   display: inline-block;
@@ -62,6 +61,7 @@ h2 {
   width: 65vw;
   background: radial-gradient(circle, #444444, #222);
   height: 100vh;
+  padding-left: 10px;
 }
 
 article {
@@ -104,8 +104,8 @@ input[type="submit"] {
   background: #36a;
 }
 .header__div {
-  width: 50vw;
   display: flex;
+  width: 50vw;
   justify-content: space-evenly;
   margin-top: 15px;
 }
@@ -114,11 +114,25 @@ i {
   color: black;
 }
 
-@media screen and (max-width: 800px) {
+  @media screen and (max-width: 800px) {
     * {
       list-style: none;
     }
+  .bars {
+    display: block;
+  }
+  .header-2 {
+      display: block;
+      width: 98.9vw;
+      height: 55px;
+      background-color: #094;
+      border-radius: 20px;
+      position: fixed;
+      z-index: 50;
+      top: 0;
+  }
     header {
+      display: none;
       width: 98.9vw;
       height: 55px;
       background-color: #094;
@@ -174,9 +188,9 @@ i {
   input[type="submit"] {
     background: #36a;
   }
-  .header__div {
+  /*.header__div {
     display: none;
-  }
+  }*/
   .responsive {
     height: 100vh;
     min-width: 35vw;
@@ -219,3 +233,4 @@ i {
     left: 0;
   }
 }
+
