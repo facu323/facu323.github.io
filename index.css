@@ -155,13 +155,14 @@ i {
       display: none;
     }
     #barra {
-      width: 100%;
+      width: 100vw;
+      display: inline-block;
+      position: relative;
     }
     #barra section {
       display: inline-block;
       position: relative;
       margin-top: 0;
-      width: 100%;
       background: radial-gradient(circle, #444444, #222);
       height: 100vh;
       padding-left: 10px;
