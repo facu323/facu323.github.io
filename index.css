@@ -5,6 +5,7 @@
 }
 body {
   background: #000;
+  overflow-x: hidden;
 }
 .bars {
   display: none;
@@ -27,30 +28,28 @@ footer {
   margin-bottom: 2px;
   width: 100vw;
 }
-.hola {
-  position: relative;
-  left: 50vw;
-  display: block;
-}
-table {
-  text-align: center;
-  margin-left: 50vw;
+aside {
+  display: inline-block;
+  position: absolute;
+  height: 100vh;
+  width: 40vw;
+  top: 50px;
+  right: auto;
 }
 aside div {
   background: #940;
   height: 100vh;
   display: inline-block;
-  max-width: 35vw;
-  position: absolute;
-  top: 50px;
+  max-width: 100%;
+  position: relative;
+  top: 0;
   padding: 10px;
-  right: 0;
+  right: auto;
 }
 aside div p,
 aside h2 {
   width: 90%;
   margin: 10px;
-
 }
 article section h2, article section p {
 width: 90%;
@@ -58,8 +57,7 @@ width: 90%;
 #barra section {
   display: inline-block;
   position: relative;
-  margin-top: 50px;
-  width: 65vw;
+  width: 100% calc(-10px);
   background: radial-gradient(circle, #444444, #222);
   height: 100vh;
   padding-left: 10px;
@@ -67,9 +65,10 @@ width: 90%;
 
 article {
   display: inline-block;
-}
-aside {
-  display: inline-block;
+  position: relative;
+  top: 50px;
+  width: 60vw;
+  height: 100vh;
 }
 h1 {
   text-align: center;
@@ -114,7 +113,6 @@ i {
   margin: 5px;
   color: black;
 }
-
   @media screen and (max-width: 800px) {
     * {
       list-style: none;
@@ -161,7 +159,7 @@ i {
     #barra section {
       display: inline-block;
       position: relative;
-      margin-top: 50px;
+      margin-top: 0;
       width: 100vw;
       background: radial-gradient(circle, #444444, #222);
       height: 100vh;
@@ -220,7 +218,7 @@ i {
     color: #000;
     transition: transform 2s;
   }
-   #close {
+  #close {
     display: block;
     position: fixed;
     margin-top: 12px;
