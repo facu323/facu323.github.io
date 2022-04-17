@@ -25,7 +25,7 @@ footer {
   position: relative;
   margin-top: 5px;
   margin-bottom: 2px;
-  width: 65vw;
+  width: 100vw;
 }
 .hola {
   position: relative;
@@ -41,7 +41,7 @@ aside div {
   height: 100vh;
   display: inline-block;
   max-width: 35vw;
-  position: fixed;
+  position: absolute;
   top: 50px;
   padding: 10px;
   right: 0;
@@ -124,7 +124,7 @@ i {
   }
   .header-2 {
       display: block;
-      width: 98.9vw;
+      width: 100%;
       height: 55px;
       background-color: #094;
       border-radius: 20px;
@@ -192,11 +192,11 @@ i {
   .responsive {
     height: 100vh;
     min-width: 50vw;
-    display: absolute;
+    display: block;
     color: black;
     width: 150px;
     background-color: blue;
-    position: absolute;
+    position: fixed;
     left: -100%;
     top: 0;
     z-index: 100;
@@ -223,27 +223,23 @@ i {
   #close {
     display: block;
     position: fixed;
-    margin: 12px;
+    margin-top: 12px;
     font-size: 26px;
     z-index: 101;
     color: #f00; 
     top: 0;
     margin-left: 45%;
-    transition: transform 3s;
   }
   .bars:hover > .responsive {
     left: 0;
   }
-  .responsive:hover > #close {
-    transform: rotate(180deg);
-  }
   .transparent {
     display: block;
     position: fixed;
-    width: 26px;
-    height: 26px;
+    width: 40px;
+    height: 40px;
     background: #fff0;
-    left: 43%;
+    left: 41%;
     top: 0;
     margin: 10px;
     margin-top: 15px;
