@@ -11,6 +11,7 @@ body {
   display: none;
 }
 header {
+  display: block;
   height: 55px;
   background-color: #094;
   border-radius: 20px;
