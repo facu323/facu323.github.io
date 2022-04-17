@@ -220,7 +220,7 @@ i {
     color: #000;
     transition: transform 2s;
   }
-  #close {
+   #close {
     display: block;
     position: fixed;
     margin-top: 12px;
@@ -228,7 +228,7 @@ i {
     z-index: 101;
     color: #f00; 
     top: 0;
-    margin-left: 45%;
+    margin-left: 40%;
   }
   .bars:hover > .responsive {
     left: 0;
@@ -239,10 +239,10 @@ i {
     width: 40px;
     height: 40px;
     background: #fff0;
-    left: 41%;
+    left: 35%;
     top: 0;
     margin: 10px;
-    margin-top: 15px;
+    margin-top: 0;
     z-index: 150;
   }
 }
