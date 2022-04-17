@@ -154,11 +154,14 @@ i {
     aside {
       display: none;
     }
+    #barra {
+      width: 100%;
+    }
     #barra section {
       display: inline-block;
       position: relative;
       margin-top: 0;
-      width: 100vw;
+      width: 100%;
       background: radial-gradient(circle, #444444, #222);
       height: 100vh;
       padding-left: 10px;
