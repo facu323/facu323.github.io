@@ -11,7 +11,6 @@ body {
   display: none;
 }
 header {
-  width: 98.9vw;
   height: 55px;
   background-color: #094;
   border-radius: 20px;
@@ -26,7 +25,6 @@ footer {
   position: relative;
   margin-top: 5px;
   margin-bottom: 2px;
-  width: 100vw;
 }
 aside {
   display: inline-block;
@@ -132,7 +130,6 @@ i {
   }
     header {
       display: none;
-      width: 98.9vw;
       height: 55px;
       background-color: #094;
       border-radius: 20px;
@@ -147,7 +144,6 @@ i {
       position: relative;
       margin-top: 5px;
       margin-bottom: 2px;
-      width: 100vw;
     }
     table {
       text-align: center;
