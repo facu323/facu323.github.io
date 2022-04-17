@@ -40,7 +40,7 @@ aside div {
   background: #940;
   height: 100vh;
   display: inline-block;
-  width: 35vw;
+  max-width: 35vw;
   position: fixed;
   top: 50px;
   padding: 10px;
@@ -50,9 +50,10 @@ aside div p,
 aside h2 {
   width: 90%;
   margin: 10px;
+
 }
 article section h2, article section p {
-width: 95%;
+width: 90%;
 }
 #barra section {
   display: inline-block;
@@ -188,22 +189,19 @@ i {
   input[type="submit"] {
     background: #36a;
   }
-  /*.header__div {
-    display: none;
-  }*/
   .responsive {
     height: 100vh;
-    min-width: 35vw;
-    display: block;
+    min-width: 50vw;
+    display: absolute;
     color: black;
     width: 150px;
     background-color: blue;
     position: absolute;
-    left: -40%;
+    left: -100%;
     top: 0;
     z-index: 100;
-    padding-top: 0;
-    transition: left 1s;
+    padding-top: 40px;
+    transition: left 2s;
   }
   nav ul li i {
     margin: 10px;
@@ -216,21 +214,39 @@ i {
     margin: 10px;
     margin-top: 15px;
     font-size: 20px;
-    left: 0;
+    left: 15px;
     top: 0;
     z-index: 90;
     color: #000;
+    transition: transform 2s;
   }
   #close {
     display: block;
-    position: relative;
-    margin: 20px;
-    font-size: 20px;
-    z-index: 140;
-    color: #000;
+    position: fixed;
+    margin: 12px;
+    font-size: 26px;
+    z-index: 101;
+    color: #f00; 
+    top: 0;
+    margin-left: 45%;
+    transition: transform 3s;
   }
   .bars:hover > .responsive {
     left: 0;
   }
+  .responsive:hover > #close {
+    transform: rotate(180deg);
+  }
+  .transparent {
+    display: block;
+    position: fixed;
+    width: 26px;
+    height: 26px;
+    background: #fff0;
+    left: 43%;
+    top: 0;
+    margin: 10px;
+    margin-top: 15px;
+    z-index: 150;
+  }
 }
-
