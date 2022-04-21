@@ -212,6 +212,8 @@ i {
   #bars {
     display: block;
     position: fixed;
+    width: 40px;
+    height: 40px;
     margin: 10px;
     margin-top: 15px;
     font-size: 20px;
@@ -251,6 +253,6 @@ i {
     color: #f00;
 }
 #bars:hover {
-  background: rgba(150,150,150,0.5);
+  background: rgba(150,150,150,0.7);
 }
 }
