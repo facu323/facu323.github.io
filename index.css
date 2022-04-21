@@ -222,7 +222,7 @@ i {
     transition: transform 2s;
     border-radius: 50%; 
     text-align: center;
-    line-height: 35px;
+    line-height: 30px;
   }
   #close {
     display: block;
