@@ -219,6 +219,9 @@ i {
     z-index: 90;
     color: #000;
     transition: transform 2s;
+    border-radius: 50%; 
+    text-align: center;
+    line-height: 25px;
   }
   #close {
     display: block;
@@ -233,16 +236,20 @@ i {
   .bars:hover > .responsive {
     left: 0;
   }
-  .transparent {
+  #x-red {
     display: block;
     position: fixed;
-    width: 40px;
-    height: 40px;
-    background: #fff0;
-    left: 35%;
-    top: 0;
-    margin: 10px;
-    margin-top: 0;
+    margin-top: 12px;
+    margin-left: 40%;
+    background: #0000;
     z-index: 150;
+    font-size: 26px;
+    top: 0;
   }
+  #x-red:hover {
+    color: #f00;
+}
+#bars:hover {
+  background-color: rgba (6660.5);
+}
 }
