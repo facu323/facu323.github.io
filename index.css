@@ -251,6 +251,6 @@ i {
     color: #f00;
 }
 #bars:hover {
-  background: rgba(6660.5);
+  background: rgba(150,150,150,0.5);
 }
 }
