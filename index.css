@@ -214,11 +214,9 @@ i {
     position: fixed;
     width: 40px;
     height: 40px;
-    margin: 10px;
-    margin-top: 15px;
+    top: 20px;
     font-size: 20px;
     left: 15px;
-    top: 0;
     z-index: 90;
     color: #000;
     transition: transform 2s;
