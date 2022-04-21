@@ -241,7 +241,7 @@ i {
     position: fixed;
     margin-top: 12px;
     margin-left: 40%;
-    background: #0000;
+    color: #0000;
     z-index: 150;
     font-size: 26px;
     top: 0;
@@ -250,6 +250,6 @@ i {
     color: #f00;
 }
 #bars:hover {
-  background-color: rgba (6660.5);
+  background: rgba(6660.5);
 }
 }
