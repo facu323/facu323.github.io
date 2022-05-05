@@ -1,20 +1,11 @@
 * {
-  font-family: Lobster, cursive;
   text-decoration: none;
-  color: #ffffff;
-}
-body {
-  background: #000;
-  overflow-x: hidden;
-}
-.bars {
-  display: none;
+  color: #000;
 }
 header {
-  display: block;
-  width: 100%;
+  width: 98.9vw;
   height: 55px;
-  background-color: #094;
+  background-color: #3838ff;
   border-radius: 20px;
   position: fixed;
   z-index: 50;
@@ -27,72 +18,38 @@ footer {
   position: relative;
   margin-top: 5px;
   margin-bottom: 2px;
-}
-aside {
-  display: inline-block;
-  position: absolute;
-  height: 100vh;
-  width: 40vw;
-  top: 50px;
-  right: auto;
-}
-aside div {
-  background: #940;
-  height: 100vh;
-  display: inline-block;
-  max-width: 100%;
-  position: relative;
-  top: 0;
-  padding: 10px;
-  right: auto;
-}
-aside div p,
-aside h2 {
-  width: 90%;
-  margin: 10px;
-}
-article section h2, article section p {
-width: 90%;
-}
-#barra section {
-  display: inline-block;
-  position: relative;
-  width: 100% calc(-10px);
-  background: radial-gradient(circle, #444444, #222);
-  height: 100vh;
+  width: 65vw;
   padding-left: 10px;
 }
-
+aside {
+  display: block;
+  background: #8afff3;
+  height: 100vh;
+  display: inline-block;
+  width: 35vw;
+  position: fixed;
+  top: 50px;
+  padding: 10px;
+}
 article {
   display: inline-block;
   position: relative;
-  top: 50px;
-  width: 60vw;
-  height: 100vh;
-}
-h1 {
-  text-align: center;
-}
-button:hover {
-  background: lightblue;
-}
-button {
-  background-color: #34a;
-  border: 1px solid #000;
-}
-footer a {
+  margin-top: 50px;
+  width: 65vw;
+  background-attachment: fixed;
+  background-size: 65%;
+  height: 100%;
   padding-left: 10px;
+}
+h1,
+h2:first-child {
+  text-align: center;
 }
 form {
   display: inline-block;
   position: absolute;
   margin: 25px;
   right: 0;
-}
-nav {
-  display: inline-block;
-  width: 30vw;
-  left: 0;
 }
 input {
   background: #555;
@@ -104,14 +61,51 @@ input[type="submit"] {
   background: #36a;
 }
 .header__div {
-  display: flex;
   width: 50vw;
+  display: flex;
   justify-content: space-evenly;
   margin-top: 15px;
 }
-i {
-  margin: 5px;
-  color: black;
+.representacion_grafica {
+  display: block;
+  position: relative;
+  top: -150%;
+  width: 100%;
+}
+.img__container-2 {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  left: 18vw;
+  width: 30vw;
+  height: 100px;
+  background: #fff;
+}
+.partes_de_una_fraccion {
+  display: block;
+  width: 100%;
+}
+.img__container {
+  display: block;
+  position: relative;
+  width: 20vw;
+  height: 20vw;
+  overflow: hidden;
+  left: 18vw;
+  background: #fff;
+}
+sup,
+sub,
+.colores {
+  display: inline-block;
+  color: #f00;
+}
+.numero,
+.arco {
+  width: 9px;
+}
+span {
+  background-color: #00ffff;
 }
   @media screen and (max-width: 800px) {
     * {
