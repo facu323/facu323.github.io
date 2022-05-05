@@ -22,7 +22,9 @@ footer {
   padding-left: 10px;
 }
 aside {
-  display: block;
+  display: inline-block;
+  position: relative;
+  right: 0;
   background: #8afff3;
   height: 100vh;
   display: inline-block;
