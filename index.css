@@ -111,7 +111,7 @@ span {
 .header-2{
 display: none;
 }
-.responsive {
+#bars {
 display: none;
 }
   @media screen and (max-width: 800px) {
