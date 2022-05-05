@@ -109,6 +109,12 @@ sub,
 span {
   background-color: #00ffff;
 }
+.header-2{
+display: none;
+}
+.responsive {
+display: none;
+}
   @media screen and (max-width: 800px) {
     * {
       list-style: none;
@@ -150,12 +156,7 @@ span {
     aside {
       display: none;
     }
-    #barra {
-      width: 100vw;
-      display: inline-block;
-      position: relative;
-    }
-    #barra section {
+    article {
       display: inline-block;
       position: relative;
       margin-top: 0;
