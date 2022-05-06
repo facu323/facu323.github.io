@@ -22,6 +22,10 @@ footer {
   margin-bottom: 2px;
   padding-left: 10px;
 }
+footer i,
+footer a {
+color: #fff;
+}
 aside {
   display: inline-block;
   position: relative;
@@ -145,14 +149,18 @@ display: none;
       margin-top: 5px;
       margin-bottom: 2px;
     }
+    footer i,
+    footer a, {
+    color: #fff;
+    }
     aside {
       display: none;
     }
     article {
       display: inline-block;
       position: relative;
-      width: 100%;
-      margin-top: 0;
+      width: 95vw;
+      margin-top: 69px;
       height: 100vh;
       padding-left: 10px;
     }
