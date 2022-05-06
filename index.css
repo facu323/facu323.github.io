@@ -3,7 +3,9 @@
   color: #000;
 }
 header {
-  width: 98.9vw;
+  display: block;
+  position: relative;
+  width: 100%;
   height: 55px;
   background-color: #3838ff;
   border-radius: 20px;
@@ -18,7 +20,6 @@ footer {
   position: relative;
   margin-top: 5px;
   margin-bottom: 2px;
-  heigth
   padding-left: 10px;
 }
 aside {
@@ -28,7 +29,7 @@ aside {
   background: #8afff3;
   height: 100vh;
   display: inline-block;
-  width: 34vw;
+  width: 25%;
   position: fixed;
   top: 50px;
   padding: 10px;
@@ -37,10 +38,12 @@ article {
   display: inline-block;
   position: relative;
   margin-top: 50px;
-  width: 65vw;
+  width: 72%;
   height: 100%;
-  padding-right: 10px;
   padding-left: 10px;
+} 
+p {
+  padding-right: 10px;
 }
 h1,
 h2:first-child {
@@ -111,8 +114,8 @@ span {
 .header-2{
 display: none;
 }
-#bars {
-display: none !important;
+.bars {
+display: none;
 }
   @media screen and (max-width: 800px) {
     * {
@@ -125,7 +128,7 @@ display: none !important;
       display: block;
       width: 100%;
       height: 55px;
-      background-color: #094;
+      background-color: #3838ff;
       border-radius: 20px;
       position: fixed;
       z-index: 50;
@@ -133,12 +136,6 @@ display: none !important;
   }
     header {
       display: none;
-      height: 55px;
-      background-color: #094;
-      border-radius: 20px;
-      position: fixed;
-      z-index: 50;
-      top: 0;
     }
     footer {
       background-color: #333;
@@ -148,18 +145,14 @@ display: none !important;
       margin-top: 5px;
       margin-bottom: 2px;
     }
-    table {
-      text-align: center;
-      margin-left: 50vw;
-    }
     aside {
       display: none;
     }
     article {
       display: inline-block;
       position: relative;
+      width: 100%;
       margin-top: 0;
-      background: radial-gradient(circle, #444444, #222);
       height: 100vh;
       padding-left: 10px;
     }
@@ -189,9 +182,9 @@ display: none !important;
     height: 100vh;
     min-width: 50vw;
     display: block;
-    color: black;
+    color: #000;
     width: 150px;
-    background-color: blue;
+    background-color: #8afff3;
     position: fixed;
     left: -100%;
     top: 0;
@@ -243,9 +236,6 @@ display: none !important;
     font-size: 26px;
     top: 0;
   }
-  #x-red:hover {
-    color: #f00;
-}
 #bars:hover {
   background: rgba(150,150,150,0.7);
 }
