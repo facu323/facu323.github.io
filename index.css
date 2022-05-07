@@ -262,10 +262,10 @@ display: none;
 .img__container {
   display: block;
   position: relative;
-  width: 20vw;
-  height: 20vw;
+  width: 50%;
+  height: 50%;
   overflow: hidden;
-  left: 18vw;
+  left: 15vw;
   background: #fff;
 }
 .imagenes {
