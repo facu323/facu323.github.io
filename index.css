@@ -191,8 +191,8 @@ display: none;
     top: 0;
     z-index: 100;
     padding-top: 40px;
-    transition: left 2s;
-    transition-delay: 1s;
+    transition: left 1s;
+    transition-delay: 0.5s;
   }
   nav ul li i {
     margin: 10px;
