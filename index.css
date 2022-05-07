@@ -22,10 +22,6 @@ footer {
   margin-bottom: 2px;
   padding-left: 10px;
 }
-footer i,
-footer a {
-color: #fff;
-}
 aside {
   display: inline-block;
   position: relative;
@@ -42,12 +38,9 @@ article {
   display: inline-block;
   position: relative;
   margin-top: 50px;
-  width: 72%;
+  width: 70%;
   height: 100%;
   padding-left: 10px;
-} 
-p {
-  padding-right: 10px;
 }
 h1,
 h2:first-child {
@@ -150,8 +143,8 @@ display: none;
       margin-bottom: 2px;
     }
     footer i,
-    footer a, {
-    color: #fff;
+    footer a {
+      color: #fff;
     }
     aside {
       display: none;
@@ -160,7 +153,7 @@ display: none;
       display: inline-block;
       position: relative;
       width: 95vw;
-      margin-top: 69px;
+      margin-top: 65px;
       height: 100vh;
       padding-left: 10px;
     }
@@ -246,5 +239,36 @@ display: none;
   }
 #bars:hover {
   background: rgba(150,150,150,0.7);
+}
+.representacion_grafica {
+  display: block;
+  position: absolute;
+  width: 130%;
+  top: -210%;
+  left: -15%;
+}
+.img__container-2 {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  left: 18vw;
+  width: 40vw;
+  height: 10vw;
+}
+.partes_de_una_fraccion {
+  display: block;
+  width: 100%;
+}
+.img__container {
+  display: block;
+  position: relative;
+  width: 20vw;
+  height: 20vw;
+  overflow: hidden;
+  left: 18vw;
+  background: #fff;
+}
+.imagenes {
+  width: 100%;
 }
 }
