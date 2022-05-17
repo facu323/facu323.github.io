@@ -34,6 +34,17 @@ aside {
   top: 50px;
   padding: 10px;
 }
+aside div nav {
+  display: block;
+  height: 50vh;
+  overflow-y: auto;
+}
+.decoration:hover > .hover, .decoration:hover {
+  color: #00f;
+}
+aside div nav ul li a, aside div nav ul li {
+  line-height: 1.6;
+}
 article {
   display: inline-block;
   position: relative;
