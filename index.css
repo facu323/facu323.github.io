@@ -1,6 +1,7 @@
 * {
   text-decoration: none;
   color: #000;
+  scroll-behavior: smooth; 
 }
 header {
   display: block;
