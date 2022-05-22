@@ -37,25 +37,28 @@
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v13.0" nonce="f5qimgN6"></script>
     <header>
-      <form>
-        <input type="search" placeholder="buscar" />
-        <input type="submit" value="buscar" />
+     <form>
+        <input id="header__input" type="search" placeholder="buscar" />
+        <button id="header__input-2" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
       </form>
-      <div class="header__div">
-        <div>
-          <a href="index.html"><i class="fa-solid fa-house"></i>inicio</a></div>
-        <div>
-          <a href="siguiente.html"><i class="fa-solid fa-arrow-right"></i>siguiente</a>
-        </div>
-        <div>
-          <a href="contactanos.html"><i class="fa-solid fa-envelope"></i>contactanos</a>
-        </div>
-      </div>
+      <nav class="header__div">
+        <ul>
+          <li class="header-li">
+            <a href="index.html"><i class="fa-solid fa-house"></i>inicio</a>
+          </li>
+          <li class="header-li">
+            <a href="siguiente.html"><i class="fa-solid fa-arrow-right"></i>siguiente</a>
+          </li>
+          <li class="header-li">
+            <a href="contactanos.html"><i class="fa-solid fa-envelope"></i>contactanos</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <div class="header-2">
-       <form>
-        <input type="search" placeholder="buscar" />
-        <input type="submit" value="buscar" />
+      <form>
+        <input class="header__input" type="search" placeholder="buscar" />
+        <button class="header__input-2" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
       </form>
     </div>
     <article>
