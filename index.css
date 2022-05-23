@@ -92,7 +92,7 @@ form {
   left: -30px;
   top: -5px;
 }
-.representacion_grafica {
+#representacion_grafica {
   display: block;
   position: relative;
   width: 30%;
