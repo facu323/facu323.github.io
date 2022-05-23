@@ -95,8 +95,10 @@ form {
 .representacion_grafica {
   display: block;
   position: relative;
-  top: -150%;
-  width: 100%;
+  width: 30%;
+  min-width: 200px;
+  height: 60px;
+  margin: auto;
 }
 .img__container-2 {
   display: block;
@@ -107,9 +109,10 @@ form {
   height: 100px;
   background: #fff;
 }
-.partes_de_una_fraccion {
+.partes {
   display: block;
-  width: 100%;
+  width: 35%;
+  margin: auto;
 }
 .img__container {
   display: block;
@@ -298,7 +301,8 @@ display: none;
 }
 .partes {
   display: block;
-  width: 100%;
+  width: 35%;
+  margin: auto;
 }
 .img__container {
   display: block;
