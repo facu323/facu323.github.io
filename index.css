@@ -130,8 +130,15 @@ sub,
 .arco {
   width: 9px;
 }
-span {
+span:last-child {
+  background: #0ff;
+}
+p {
+  padding-right: 10px;
+}
+.p__span {
   background-color: #00ffff;
+  text-decoration: underline;
 }
 .header-2{
 display: none;
