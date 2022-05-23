@@ -100,28 +100,10 @@ form {
   height: 60px;
   margin: auto;
 }
-.img__container-2 {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  left: 18vw;
-  width: 30vw;
-  height: 100px;
-  background: #fff;
-}
 .partes {
   display: block;
   width: 35%;
   margin: auto;
-}
-.img__container {
-  display: block;
-  position: relative;
-  width: 20vw;
-  height: 20vw;
-  overflow: hidden;
-  left: 18vw;
-  background: #fff;
 }
 sup,
 sub,
@@ -291,27 +273,10 @@ display: none;
   top: -210%;
   left: -15%;
 }
-.img__container-2 {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  left: 18vw;
-  width: 40vw;
-  height: 10vw;
-}
 .partes {
   display: block;
   width: 35%;
   margin: auto;
-}
-.img__container {
-  display: block;
-  position: relative;
-  width: 50%;
-  height: 50%;
-  overflow: hidden;
-  left: 15vw;
-  background: #fff;
 }
 .imagenes {
   display: block;
