@@ -103,6 +103,8 @@ form {
 .partes {
   display: block;
   width: 40%;
+  min-width: 250px;
+  max-width: 400px;
   margin: auto;
 }
 sup,
@@ -276,6 +278,8 @@ display: none;
 .partes {
   display: block;
   width: 40%;
+  min-width: 250px;
+  max-width: 400px;
   margin: auto;
 }
 .imagenes {
