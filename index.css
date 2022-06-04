@@ -15,12 +15,12 @@ header {
   top: 0;
 }
 footer {
-  background-color: #333;
-  border: 5px solid blue;
-  border-radius: 20px;
+  background-color: #666;
+  border: 5px solid #00f;
+  border-top-left-radius: 20px;
+  border-top-left-radius: 20px
   position: relative;
   margin-top: 5px;
-  margin-bottom: 2px;
   padding-left: 10px;
 }
 aside {
