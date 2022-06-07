@@ -17,7 +17,6 @@ header {
 footer {
   display: block;
   position: relative;
-  width: 100%;
   background-color: #666;
   border: 5px solid #00f;
   border-top-left-radius: 20px;
