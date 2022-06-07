@@ -21,7 +21,7 @@ footer {
   background-color: #666;
   border: 5px solid #00f;
   border-top-left-radius: 20px;
-  border-top-left-radius: 20px
+  border-top-right-radius: 20px
   margin-top: 5px;
   padding-left: 10px;
   z-index: 500;
@@ -163,7 +163,7 @@ display: none;
       background-color: #666;
       border: 5px solid #00f;
       border-top-left-radius: 20px;
-      border-top-left-radius: 20px
+      border-top-right-radius: 20px
       margin-top: 5px;
       padding-left: 10px;
       z-index: 500;
