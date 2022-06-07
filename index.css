@@ -15,6 +15,9 @@ header {
   top: 0;
 }
 footer {
+  display: block;
+  position: relative;
+  width: 100%;
   background-color: #666;
   border: 5px solid #00f;
   border-top-left-radius: 20px;
@@ -22,7 +25,7 @@ footer {
   position: relative;
   margin-top: 5px;
   padding-left: 10px;
-  z-index: 300;
+  z-index: 500;
 }
 aside {
   display: inline-block;
@@ -155,12 +158,17 @@ display: none;
       display: none;
     }
     footer {
-      background-color: #333;
-      border: 5px solid blue;
-      border-radius: 20px;
+      display: block;
+      position: relative;
+      width: 100%;
+      background-color: #666;
+      border: 5px solid #00f;
+      border-top-left-radius: 20px;
+      border-top-left-radius: 20px
       position: relative;
       margin-top: 5px;
-      margin-bottom: 2px;
+      padding-left: 10px;
+      z-index: 500;
     }
     footer i,
     footer a {
