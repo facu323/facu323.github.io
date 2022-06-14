@@ -23,7 +23,7 @@ footer {
   border-top-right-radius: 20px;
   margin-top: 5px;
   padding-left: 10px;
-  z-index: 500;
+  z-index: 50;
 }
 aside {
   display: inline-block;
