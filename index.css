@@ -25,6 +25,10 @@ footer {
   padding-left: 10px;
   z-index: 50;
 }
+footer i,
+footer a {
+  color: #fff;
+}
 aside {
   display: inline-block;
   position: relative;
@@ -164,7 +168,7 @@ display: none;
       border-top-right-radius: 20px;
       margin-top: 5px;
       padding-left: 10px;
-      z-index: 500;
+      z-index: 50;
     }
     footer i,
     footer a {
