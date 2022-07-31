@@ -51,9 +51,10 @@
     </header>
     <div class="header-2">
       <form>
-        <input class="header__input" type="search" placeholder="buscar" />
-        <button class="header__input-2" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <input class="header__input" id="formulario" type="text" placeholder="buscar" />
+        <button class="header__input-2" id="boton"/><i class="fa-solid fa-magnifying-glass"></i></button>
       </form>
+      <ul id="resultado"></ul>
     </div>
     <article>
       <section>
@@ -97,7 +98,7 @@
             <li> 
               <p>
                 <b>decimal periodico:</b> los decimales periódicos son aquellos decimales que se repiten infinitamente. para pasarlos a fracción escribimos en el numerador todo el número sin la coma y le restamos la parte entera (la parte entera es el numero que esta antes de la coma) y en el denominador escribimos un 9 por cada decimal periodico que tenga <br>
-                (el simbolo del decimal periodico es el "<img src="periodico-simbolo.jpg" alt="arco_decimal" class="arco">" encima del número por ejemplo <img src="periodico.jpg" alt="nueve_periodico" class="numero"> esto significa nueve periodico) ej: <br><br>
+                (el simbolo del decimal periodico es el "<img src='periodico-simbolo.jpg' alt='arco_decimal' class='arco'> " encima del número por ejemplo <img src="periodico.jpg" alt="nueve_periodico" class="numero"> esto significa nueve periodico) ej: <br><br>
                 <img src="2022-05-05 (5).png" alt="decimales_periodicos">
               </p>
             </li>
@@ -131,13 +132,12 @@
           <img src="2022-05-05 (11).png" alt="">
         </p>
       </section>
-      <div class="fb-comments" data-href="https://facu323.github.io" data-width="100%" data-numposts="10" data-mobile="auto-detected"></div>
+      <div class="fb-comments" data-href="https://1xrzjr.csb.app/" data-width="100%" data-numposts="10" data-mobile="auto-detected"></div>
     </article>
-    <i class="fa-solid fa-xmark" id="x-red"></i>
-    <div class="bars">
+    <div>
       <i class="fa-solid fa-bars" id="bars"></i>
       <nav class="responsive">
-        <i class="fa-solid fa-xmark" id="close"></i>
+        <i class="fa-solid fa-xmark" onclick="menuMobile(1)" id="close"></i>
         <ul>
           <li>
             <a href="index.html"><i class="fa-solid fa-house"></i>inicio</a>
@@ -152,9 +152,9 @@
       </nav>
     </div>
     <aside>
-      <div>
-        <h2>indice</h2>
-        <nav>
+      <div class="indice">
+        <div class="tapar"><h2><i class="fa-solid fa-chevron-down"></i><i class="fa-solid fa-chevron-up"></i> indice</h2></div>
+        <nav class="menu">
           <ul>
             <li class="decoration">
               <a href="#fracciones" class="hover">¿que son las fracciones?</a>
@@ -187,8 +187,9 @@
               <a href="#resta" class="hover">resta de fracciones</a>
             </li>
           </ul>
-        </nav>
-      </aside>
+        </nav> 
+      </div>
+    </aside>
       <br>
       <footer class="titulo">
         <p>
@@ -196,7 +197,8 @@
         </p>
         <a href="https://www.facebook.com/profile.php?id=100024181936910" target="_blank">facebook</a>
         <a href="https://www.instagram.com/facu_ariel16/" target="_blank">instagram</a>
-      </footer>
+      </footer> 
+      <script src="main.js"></script>
   </body>
 </html>
 
