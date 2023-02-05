@@ -8,9 +8,9 @@ window.onload = () => {
 };
 function notificaciones() {
   if (boolean) {
-    Notification("la aventura aguarda", {
+    new Notification("la aventura aguarda", {
       body: "seras capazde superar tu maximo puntaje?",
-      icon: "./icono.jpg"
+      icon: "https://facu323.github.io/PS29U3/Ios/32.png"
     });
   }
 }
