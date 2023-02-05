@@ -4,7 +4,7 @@ export {armas, lifes, pausa as pause, lifePoints as lifePoint};
 const registerServiceWorker = async () => {
   if ("serviceWorker" in navigator) {
     try {
-      const registration = await navigator.serviceWorker.register("./sw.js", {
+      const registration = await navigator.serviceWorker.register("https://facu323.github.io/PS29U3/sw.js", {
         scope: "./"
       });
       if (registration.installing) {
