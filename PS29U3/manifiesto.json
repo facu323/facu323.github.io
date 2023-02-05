@@ -3,6 +3,7 @@
   "short_name": "game",
   "version": "1.4.3",
   "description": "a simple game",
+  "start_URL": "https://facu323.github.io/PS29U3/",
   "id": "/PS29U3/",
   "background_color": "#006",
   "display": "fullscreen",
