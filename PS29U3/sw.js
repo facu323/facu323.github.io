@@ -82,7 +82,7 @@ self.addEventListener("install", (event) => {
       "https://facu323.github.io/PS29U3/control.js",
       "https://facu323.github.io/PS29U3/enemy.js",
       "https://facu323.github.io/PS29U3/manifiesto.json",
-      "https://facu323.github.io/PS29U3/nft.js"
+      "https://facu323.github.io/PS29U3/ntf.js"
     ])
   );
 });
