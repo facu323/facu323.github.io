@@ -14,4 +14,4 @@ function notificaciones() {
     });
   }
 }
-let interval = setInterval(notificaciones, 10800);
+let interval = setInterval(notificaciones, 108000);
