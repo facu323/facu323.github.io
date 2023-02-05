@@ -75,7 +75,7 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("install", (event) => {
   event.waitUntil(
     addResourcesToCache([
-      "./",
+      "https://facu323.github.io/PS29U3",
       "https://facu323.github.io/PS29U3/index.html",
       "https://facu323.github.io/PS29U3/index.css",
       "https://facu323.github.io/PS29U3/game.js",
@@ -92,7 +92,7 @@ self.addEventListener("fetch", (event) => {
     cacheFirst({
       request: event.request,
       preloadResponsePromise: event.preloadResponse,
-      fallbackUrl: "./Ios/16.png"
+      fallbackUrl: "https://facu323.github.io/PS29U3/Ios/16.png"
     })
   );
 });
