@@ -76,13 +76,13 @@ self.addEventListener("install", (event) => {
   event.waitUntil(
     addResourcesToCache([
       "./",
-      "./index.html",
-      "./index.css",
-      "./game.js",
-      "./control.js",
-      "./enemy.js",
-      "./manifiesto.json",
-      "./nft.js"
+      "https://facu323.github.io/PS29U3/index.html",
+      "https://facu323.github.io/PS29U3/index.css",
+      "https://facu323.github.io/PS29U3/game.js",
+      "https://facu323.github.io/PS29U3/control.js",
+      "https://facu323.github.io/PS29U3/enemy.js",
+      "https://facu323.github.io/PS29U3/manifiesto.json",
+      "https://facu323.github.io/PS29U3/nft.js"
     ])
   );
 });
