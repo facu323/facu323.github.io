@@ -75,14 +75,14 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("install", (event) => {
   event.waitUntil(
     addResourcesToCache([
-      "/",
-      "/index.html",
-      "/index.css",
-      "/game.js",
-      "/control.js",
-      "/enemy.js",
-      "/manifiesto.json",
-      "/nft.js"
+      "./",
+      "./index.html",
+      "./index.css",
+      "./game.js",
+      "./control.js",
+      "./enemy.js",
+      "./manifiesto.json",
+      "./nft.js"
     ])
   );
 });
@@ -92,7 +92,7 @@ self.addEventListener("fetch", (event) => {
     cacheFirst({
       request: event.request,
       preloadResponsePromise: event.preloadResponse,
-      fallbackUrl: "/ex.png"
+      fallbackUrl: "./Ios/16.png"
     })
   );
 });
