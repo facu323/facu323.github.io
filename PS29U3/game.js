@@ -221,7 +221,7 @@ let hiscore = localStorage.getItem("score");
         document.getElementById("game_over").style.display = "flex";
         pausa = false;
         game_over = true;
-        document.getElementById("retry").onclick = ()=>{window.location = "https://ps29u3.csb.app/"};
+        document.getElementById("retry").onclick = ()=>{window.location = "https://facu323.github.io/PS29U3/"};
         if (score > hiscore) {
           localStorage.setItem("score", `${score}`);
           hiscore = localStorage.getItem("score");
