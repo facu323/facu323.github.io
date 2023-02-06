@@ -11,6 +11,21 @@
       src="https://kit.fontawesome.com/392d4ec2d4.js"
       crossorigin="anonymous"
     ></script>
+    <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js";
+  const firebaseConfig = {
+    apiKey: "AIzaSyC76hmPWmSQji4Z-tWOT1VSpCW4M9apTng",
+    authDomain: "game-4c861.firebaseapp.com",
+    projectId: "game-4c861",
+    storageBucket: "game-4c861.appspot.com",
+    messagingSenderId: "731737845394",
+    appId: "1:731737845394:web:aff96b50c556da9a0b404b",
+    measurementId: "G-TNFYJRRQ3W"
+  };
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
     <title>game</title>
   </head>
   <body>
